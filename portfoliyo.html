@@ -1,0 +1,127 @@
+<html>
+    <head>
+     <title>portfoliyo</title>
+     <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+
+        .icone{
+            position: relative;
+            width: 100%;
+            height: 78px;
+          
+        }
+        
+        nav{
+            display: flex;
+            width: 41%;
+            margin: -10px;
+            padding: 16px 0;
+            padding-left: 55%;
+            align-items: center;
+            justify-content: space-between;
+        }  
+        
+        nav ul  li{
+            display: inline-flex;
+            list-style:none ;
+            margin: 11px 20px;
+        }
+        
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        #head {
+          margin-left: 8%;
+          margin-top: 15%;
+          font-size: large;
+        }
+        
+          #head h1{
+            font-size:165% ;
+            color:black ;
+            margin-bottom: 28px;
+          }
+        
+          span{
+            color: red;
+          }
+        
+          #head p{
+              color: rgb(95, 95, 95);
+              line-height: 25px;
+          }
+          #head a{
+            background: black;
+            padding: 10px 18px;
+            text-decoration: none;
+            font-weight: bold;
+            color: antiquewhite;
+            display: inline-block;
+            margin: 30px 0;
+            border-radius: 5px;
+          }
+          .image{
+            width:35% ;
+            height:80% ;
+            position: absolute;
+            bottom: 1;
+            right: 100px;
+          }
+        
+          .image img{
+            height: 100%;
+            position: absolute;
+            left: 10%;
+            bottom:0 ;
+            transform:translateX(-40) ;
+            transition:bottom 2s left 2s;
+            background-color: rgb(255, 145, 0);
+          }
+        
+          .image:hover .background{
+            bottom: 45px;
+            width: 75%;
+            box-sizing: border-box;
+          }
+        
+          .image:hover .boy{
+            left: 1s;
+        
+          }
+          
+    </style>
+    <body>
+        <div class="icone">
+            <nav>
+           <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT ME</a></li>
+            <li><a href="#">SERVESE</a></li>
+            <li><a href="#">EXPERINCE</a></li>
+           </ul>
+           </nav>
+        </div>
+        <div id="head">
+            <h1><p><b>Hello I,M <span>Yash Tiwari</span><br>
+                      my details and EXPERINCE<br>
+                      as in this page.
+            </b></p></h1>
+            <a  href="#">Download CV</a>
+        </div>
+        <div class="image">
+            <img style="background-color: black;" src="background.jpg" class="student" >
+            <img src="boy.jpg" class="boy">
+        </div>
+       
+    </body>
+</html>
