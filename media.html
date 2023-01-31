@@ -15,7 +15,7 @@
         color: rgb(238, 14, 111);
     }
      
-    @media screen and (max-width:70px) {
+    @media screen and (min-width:700px) {
         body {
             text-align: center;
             background-color: rgb(105, 28, 206);
@@ -38,12 +38,22 @@
         .gfg{
             font-size: 30px;
             font-weight: bold;
-        color: aqua;
+        color: rgb(40, 148, 19);
         }
         .geeks{
             color: aliceblue;
         }
     }
+	@media  screen and(max-width:800px) {
+		.black{
+			background-color: brown;
+		}
+	}
+	@media  screen and(min-width:800px) {
+		.black{
+			color: rgb(20, 218, 96);
+		}
+	}
     </style>
     </head>
     <div class="img">
@@ -51,6 +61,9 @@
         <div class="gfg">Media Screening Effect</div>
     <div class="geeks">The Media query in CSS is used to create a responsive web design. It means that the view of a web page differs from system to system based on screen or media types. The breakpoint specifies for what device-width size, the content is just starting to break or deform.</div>
 
-    </body>
+	<div class="black">
+     <img style="height: 500px;" src="https://th.bing.com/th/id/OIP.0j53gF77jV_V0tM6X3eQgAHaEK?w=309&h=180&c=7&r=0&o=5&pid=1.7">
+    </div>
+	</body>
     </div>
     </html>
